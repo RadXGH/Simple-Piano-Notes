@@ -1,0 +1,40 @@
+body {
+    background-image: url(img/pianobg.jpg);
+}
+
+.centers {
+   /* centers */
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.key {
+    background-color: white;
+    border: 1px solid red;
+    box-shadow: inset 0 0 5px red;
+    transform: scale(1);
+    transition-delay: .07s;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+
+.key-playing {
+    background-color: white;
+    box-shadow: 0 0 10px red;
+    transform: scale(1.1);
+}
+
+.keyPress {
+    font-size: 20px;
+    color: rgb(112, 112, 112)
+}
+
+.keyNote {
+    font-size: 23px;
+    font-weight: bold;
+}

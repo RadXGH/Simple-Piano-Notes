@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>JavaScript Simple Drum Kit</title>
+    </head>
+
+    <body>
+        <div class="centers">
+            <div data-key="KeyA" class="key">
+                <span class="keyNote">C Note</span>
+                <br>
+                <span class="keyPress">A</span>
+            </div>
+            <div data-key="KeyS" class="key">
+                <span class="keyNote">D Note</span>
+                <br>
+                <span class="keyPress">S</span>
+            </div>
+            <div data-key="KeyD" class="key">
+                <span class="keyNote">E Note</span>
+                <br>
+                <span class="keyPress">D</span>
+            </div>
+            <div data-key="KeyF" class="key">
+                <span class="keyNote">F Note</span>
+                <br>
+                <span class="keyPress">F</span>
+            </div>
+            <div data-key="KeyG" class="key">
+                <span class="keyNote">G Note</span>
+                <br>
+                <span class="keyPress">G</span>
+            </div>
+            <div data-key="KeyH" class="key">
+                <span class="keyNote">A Note</span>
+                <br>
+                <span class="keyPress">H</span>
+            </div>
+            <div data-key="KeyJ" class="key">
+                <span class="keyNote">B Note</span>
+                <br>
+                <span class="keyPress">J</span>
+            </div>
+        </div>
+
+        <audio data-note="C-note" data-key="KeyA">
+            <source src="audio/cnote.mp3" type="audio/mpeg">
+        </audio>
+        <audio data-note="D-note" data-key="KeyS">
+            <source src="audio/dnote.mp3" type="audio/mpeg">
+        </audio>
+        <audio data-note="E-note" data-key="KeyD">
+            <source src="audio/enote.mp3" type="audio/mpeg">
+        </audio>
+        <audio data-note="F-note" data-key="KeyF">
+            <source src="audio/fnote.mp3" type="audio/mpeg">
+        </audio>
+        <audio data-note="G-note" data-key="KeyG">
+            <source src="audio/gnote.mp3" type="audio/mpeg">
+        </audio>
+        <audio data-note="A-note" data-key="KeyH">
+            <source src="audio/anote.mp3" type="audio/mpeg">
+        </audio>
+        <audio data-note="B-note" data-key="KeyJ">
+            <source src="audio/bnote.mp3" type="audio/mpeg">
+        </audio>
+    </body>
+</html>
